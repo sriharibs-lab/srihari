@@ -1,5 +1,5 @@
 import { ExternalLink, Mail, Linkedin, Github, Play, MapPin, Brain, Trophy } from "lucide-react";
-import seattleBackground from "@/assets/seattle-rainy-background.png";
+import seattleBackground from "@/assets/seattle-background.jpg";
 
 const Index = () => {
   const articles = [
@@ -52,14 +52,14 @@ const Index = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="prose prose-lg max-w-none text-text-secondary leading-relaxed">
             <p className="text-xl mb-6 text-justify">
-              I'm a Product Manager at Microsoft Power Apps, where I help democratize app development 
+              I'm a Product Manager at Microsoft where I help democratize app development 
               (no code? no problem). Based in Seattle with my family – we've fully embraced the coffee 
               culture and consider rain a feature, not a bug.
             </p>
             <p className="text-xl text-justify">
-              I'm a husband, girl-dad, and someone who believes the best products remove barriers rather 
+              I'm a husband, girl-dad, and believe the best products remove barriers rather 
               than create them. When I'm not shipping features at Microsoft, you'll find me shipping 
-              myself across Seattle's trails, one stride at a time.
+              myself across PNW's trails, one stride at a time.
             </p>
           </div>
         </div>
