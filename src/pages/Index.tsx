@@ -103,11 +103,8 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-light text-text-primary mb-6">
-              Work & writing
+              Work & Writing
             </h2>
-            <p className="text-xl text-text-secondary">
-              Power Apps Product Manager | Shipping features used by millions
-            </p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -139,8 +136,7 @@ const Index = () => {
             <div className="text-6xl mb-6">🏃‍♂️</div>
             <h3 className="text-2xl font-semibold text-text-primary mb-6">Run Down</h3>
             <p className="text-lg text-text-secondary mb-8 leading-relaxed">
-              An AI-powered race discovery platform that helps runners find their perfect race. 
-              Because life's a marathon, but finding marathons shouldn't be.
+              A running race discovery platform for helps runners: The starting line for finding every finish line.
             </p>
             <a href="https://run-down.vercel.app" className="btn-primary inline-flex items-center gap-2">
               View Project
@@ -162,7 +158,7 @@ const Index = () => {
               Always up for conversations about products, puns, or personal records
             </p>
             <p className="text-lg text-text-muted">
-              Reach out if you want to talk shop, swap dad jokes, or debate whether a hot dog is a sandwich
+              Reach out if you want to talk shop, swap dad jokes, or diss on Seattle food scene.
             </p>
           </div>
           
