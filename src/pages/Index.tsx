@@ -16,10 +16,10 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-fixed opacity-50"
+          className="absolute inset-0 bg-cover bg-center bg-fixed opacity-60"
           style={{ 
             backgroundImage: `url(${seattleBackground})`,
-            filter: 'blur(0.3px) brightness(0.7) contrast(1.3) saturate(0.9)'
+            filter: 'brightness(0.7) contrast(1.3) saturate(0.9)'
           }}
         ></div>
         <div 
