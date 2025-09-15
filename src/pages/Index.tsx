@@ -16,8 +16,11 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-fixed opacity-20"
-          style={{ backgroundImage: `url(${seattleBackground})` }}
+          className="absolute inset-0 bg-cover bg-center bg-fixed opacity-40 blur-[1px]"
+          style={{ 
+            backgroundImage: `url(${seattleBackground})`,
+            filter: 'blur(1px) brightness(0.8) contrast(1.1)'
+          }}
         ></div>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/80 to-background"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
