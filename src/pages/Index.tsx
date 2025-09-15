@@ -43,7 +43,7 @@ const Index = () => {
               culture and consider rain a feature, not a bug.
             </p>
             <p className="text-xl text-justify">
-              I'm a husband, father, and someone who believes the best products remove barriers rather 
+              I'm a husband, girl-dad, and someone who believes the best products remove barriers rather 
               than create them. When I'm not shipping features at Microsoft, you'll find me shipping 
               myself across Seattle's trails, one stride at a time.
             </p>
