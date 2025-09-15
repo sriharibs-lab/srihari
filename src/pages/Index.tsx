@@ -1,5 +1,5 @@
 import { ExternalLink, Mail, Linkedin, Github, Play, MapPin, Brain, Trophy } from "lucide-react";
-import seattleBackground from "@/assets/seattle-background.jpg";
+import seattleBackground from "@/assets/seattle-rainy-background.png";
 
 const Index = () => {
   const articles = [
