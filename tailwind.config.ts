@@ -13,6 +13,17 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        system: [
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+          '"Helvetica Neue"',
+          'Arial',
+          'sans-serif',
+        ],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -22,6 +33,27 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          light: "hsl(var(--primary-light))",
+          subtle: "hsl(var(--primary-subtle))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+          subtle: "hsl(var(--card-subtle))",
+        },
+        text: {
+          primary: "hsl(var(--text-primary))",
+          secondary: "hsl(var(--text-secondary))",
+          muted: "hsl(var(--text-muted))",
+        },
+        hover: "hsl(var(--hover))",
+        border: {
+          DEFAULT: "hsl(var(--border))",
+          subtle: "hsl(var(--border-subtle))",
+        },
+        rain: {
+          primary: "hsl(var(--rain-primary))",
+          secondary: "hsl(var(--rain-secondary))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
