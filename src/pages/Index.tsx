@@ -142,7 +142,7 @@ const Index = () => {
               An AI-powered race discovery platform that helps runners find their perfect race. 
               Because life's a marathon, but finding marathons shouldn't be.
             </p>
-            <a href="https://un-down.vercel.app" className="btn-primary inline-flex items-center gap-2">
+            <a href="https://run-down.vercel.app" className="btn-primary inline-flex items-center gap-2">
               View Project
               <ExternalLink className="w-4 h-4" />
             </a>
