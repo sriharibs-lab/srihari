@@ -16,10 +16,21 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-fixed opacity-40 blur-[1px]"
+          className="absolute inset-0 bg-cover bg-center bg-fixed opacity-50"
           style={{ 
             backgroundImage: `url(${seattleBackground})`,
-            filter: 'blur(1px) brightness(0.8) contrast(1.1)'
+            filter: 'blur(0.3px) brightness(0.7) contrast(1.3) saturate(0.9)'
+          }}
+        ></div>
+        <div 
+          className="absolute inset-0 opacity-30"
+          style={{
+            background: `radial-gradient(circle at 20% 30%, rgba(255,255,255,0.1) 1px, transparent 1px),
+                        radial-gradient(circle at 60% 70%, rgba(255,255,255,0.08) 1.5px, transparent 1.5px),
+                        radial-gradient(circle at 80% 20%, rgba(255,255,255,0.12) 0.8px, transparent 0.8px),
+                        radial-gradient(circle at 40% 80%, rgba(255,255,255,0.1) 1.2px, transparent 1.2px),
+                        radial-gradient(circle at 10% 60%, rgba(255,255,255,0.09) 1px, transparent 1px)`,
+            backgroundSize: '200px 200px, 150px 150px, 180px 180px, 220px 220px, 160px 160px'
           }}
         ></div>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/80 to-background"></div>
