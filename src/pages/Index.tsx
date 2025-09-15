@@ -1,51 +1,41 @@
 import { ExternalLink, Mail, Linkedin, Github, Play, MapPin, Brain, Trophy } from "lucide-react";
+import seattleBackground from "@/assets/seattle-background.jpg";
 
 const Index = () => {
   const articles = [
-    { title: "Democratizing App Development with Power Apps", date: "Nov 2024" },
-    { title: "No-Code Solutions for Enterprise Teams", date: "Oct 2024" },
-    { title: "Building Accessible Apps: A Product Manager's Guide", date: "Sep 2024" },
-    { title: "The Future of Low-Code Development", date: "Aug 2024" },
-    { title: "Empowering Citizen Developers", date: "Jul 2024" },
-    { title: "Scaling No-Code Across Organizations", date: "Jun 2024" },
+    { title: "Building accessible apps in Power Apps: A comprehensive guide" },
+    { title: "Power Platform governance strategies for enterprise scale" },
+    { title: "Optimizing performance in canvas apps: Best practices" },
+    { title: "Creating seamless user experiences with Power Apps portals" },
+    { title: "Data modeling fundamentals for Power Platform solutions" },
+    { title: "Advanced Power Automate patterns for complex workflows" },
   ];
 
   return (
     <div className="min-h-screen bg-background font-system">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center rain-pattern">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background"></div>
+      <section className="relative min-h-screen flex items-center justify-center">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-30"
+          style={{ backgroundImage: `url(${seattleBackground})` }}
+        ></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/70 to-background rain-pattern"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
           <h1 className="text-5xl md:text-7xl font-light text-text-primary mb-6 text-balance">
             Srihari Srinivasa
           </h1>
           <p className="text-xl md:text-2xl text-text-secondary mb-4 font-medium">
-            Product Manager at Microsoft Power Apps | Seattle
+            Product @ Microsoft | Seattle
           </p>
           <p className="text-lg text-text-muted mb-12 max-w-2xl mx-auto text-balance">
             Helping people build powerful solutions, one app at a time
           </p>
-          
-          <div className="flex gap-6 justify-center text-sm">
-            <a href="https://linkedin.com" className="link-subtle hover:link-primary">
-              LinkedIn
-            </a>
-            <a href="https://github.com" className="link-subtle hover:link-primary">
-              GitHub
-            </a>
-            <a href="mailto:hello@srihari.dev" className="link-subtle hover:link-primary">
-              Email
-            </a>
-          </div>
         </div>
       </section>
 
       {/* About Me */}
-      <section className="py-24 px-6">
+      <section className="py-12 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-light text-text-primary mb-12 text-center">
-            About Me
-          </h2>
           <div className="prose prose-lg max-w-none text-text-secondary leading-relaxed">
             <p className="text-xl mb-6 text-balance">
               I'm a Product Manager at Microsoft Power Apps, where I help democratize app development 
@@ -62,10 +52,10 @@ const Index = () => {
       </section>
 
       {/* What I'm Into */}
-      <section className="py-24 px-6 bg-card-subtle">
+      <section className="py-16 px-6 bg-card-subtle">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-light text-text-primary mb-16 text-center">
-            What I'm Into
+          <h2 className="text-3xl md:text-4xl font-light text-text-primary mb-12 text-center">
+            What I'm into
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -109,11 +99,11 @@ const Index = () => {
       </section>
 
       {/* Work & Writing */}
-      <section className="py-24 px-6">
+      <section className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-light text-text-primary mb-6">
-              Work & Writing
+              Work & writing
             </h2>
             <p className="text-xl text-text-secondary">
               Power Apps Product Manager | Shipping features used by millions
@@ -126,13 +116,12 @@ const Index = () => {
                 <h3 className="font-semibold text-text-primary mb-2 leading-snug">
                   {article.title}
                 </h3>
-                <p className="text-sm text-text-muted">{article.date}</p>
               </div>
             ))}
           </div>
           
           <div className="text-center">
-            <a href="#" className="link-primary font-medium">
+            <a href="https://www.microsoft.com/power-platform/blog/author/srihas/" className="link-primary font-medium">
               More on Microsoft Blog →
             </a>
           </div>
@@ -140,10 +129,10 @@ const Index = () => {
       </section>
 
       {/* Currently Building */}
-      <section className="py-24 px-6 bg-card-subtle">
+      <section className="py-16 px-6 bg-card-subtle">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-light text-text-primary mb-12">
-            Currently Building
+            Currently building
           </h2>
           
           <div className="card-interactive p-12 max-w-2xl mx-auto">
@@ -153,7 +142,7 @@ const Index = () => {
               An AI-powered race discovery platform that helps runners find their perfect race. 
               Because life's a marathon, but finding marathons shouldn't be.
             </p>
-            <a href="#" className="btn-primary inline-flex items-center gap-2">
+            <a href="https://un-down.vercel.app" className="btn-primary inline-flex items-center gap-2">
               View Project
               <ExternalLink className="w-4 h-4" />
             </a>
@@ -162,7 +151,7 @@ const Index = () => {
       </section>
 
       {/* Connect */}
-      <section className="py-24 px-6">
+      <section className="py-16 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-light text-text-primary mb-8">
             Connect
@@ -178,15 +167,15 @@ const Index = () => {
           </div>
           
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="mailto:hello@srihari.dev" className="btn-subtle inline-flex items-center gap-2">
+            <a href="mailto:Srihari.srinivasa@gmail.com" className="btn-subtle inline-flex items-center gap-2">
               <Mail className="w-4 h-4" />
               Email
             </a>
-            <a href="https://linkedin.com" className="btn-subtle inline-flex items-center gap-2">
+            <a href="http://linkedin.com/in/srihari-srinivasa/" className="btn-subtle inline-flex items-center gap-2">
               <Linkedin className="w-4 h-4" />
               LinkedIn
             </a>
-            <a href="https://github.com" className="btn-subtle inline-flex items-center gap-2">
+            <a href="https://github.com/sriharibs-lab/" className="btn-subtle inline-flex items-center gap-2">
               <Github className="w-4 h-4" />
               GitHub
             </a>
