@@ -16,10 +16,10 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-30"
+          className="absolute inset-0 bg-cover bg-center bg-fixed opacity-20"
           style={{ backgroundImage: `url(${seattleBackground})` }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/70 to-background rain-pattern"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/80 to-background"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
           <h1 className="text-5xl md:text-7xl font-light text-text-primary mb-6 text-balance">
             Srihari Srinivasa
@@ -34,15 +34,15 @@ const Index = () => {
       </section>
 
       {/* About Me */}
-      <section className="py-12 px-6">
-        <div className="max-w-4xl mx-auto">
+      <section className="py-6 px-6">
+        <div className="max-w-4xl mx-auto text-center">
           <div className="prose prose-lg max-w-none text-text-secondary leading-relaxed">
-            <p className="text-xl mb-6 text-balance">
+            <p className="text-xl mb-6 text-justify">
               I'm a Product Manager at Microsoft Power Apps, where I help democratize app development 
               (no code? no problem). Based in Seattle with my family – we've fully embraced the coffee 
               culture and consider rain a feature, not a bug.
             </p>
-            <p className="text-xl text-balance">
+            <p className="text-xl text-justify">
               I'm a husband, father, and someone who believes the best products remove barriers rather 
               than create them. When I'm not shipping features at Microsoft, you'll find me shipping 
               myself across Seattle's trails, one stride at a time.
