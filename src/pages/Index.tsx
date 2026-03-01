@@ -3,12 +3,16 @@ import seattleBackground from "@/assets/seattle-background.jpg";
 
 const Index = () => {
   const articles = [
-    { title: "Building accessible apps in Power Apps: A comprehensive guide" },
-    { title: "Power Platform governance strategies for enterprise scale" },
-    { title: "Optimizing performance in canvas apps: Best practices" },
-    { title: "Creating seamless user experiences with Power Apps portals" },
-    { title: "Data modeling fundamentals for Power Platform solutions" },
-    { title: "Advanced Power Automate patterns for complex workflows" },
+    { title: "Introducing Visualize with Copilot (preview)", url: "https://www.microsoft.com/en-us/power-platform/blog/power-apps/introducing-visualize-with-copilot-preview/" },
+    { title: "Announcing general availability of visualizing views in Power Apps with Power BI", url: "https://www.microsoft.com/en-us/power-platform/blog/power-apps/announcing-general-availability-of-visualizing-views-in-power-apps-with-power-bi/" },
+    { title: "Introducing the new search experience in model-driven Power Apps", url: "https://www.microsoft.com/en-us/power-platform/blog/power-apps/introducing-the-new-search-experience-in-model-driven-power-apps/" },
+    { title: "New search experience and quick actions in Power Apps", url: "https://www.microsoft.com/en-us/power-platform/blog/power-apps/new-search-experience-and-quick-actions-in-power-apps/" },
+    { title: "Search quick actions are now customizable in model-driven Power Apps", url: "https://www.microsoft.com/en-us/power-platform/blog/power-apps/search-quick-actions-are-now-customizable-in-model-driven-power-apps/" },
+    { title: "Advanced lookup experience in model-driven Power Apps", url: "https://www.microsoft.com/en-us/power-platform/blog/power-apps/advanced-lookup-experience-in-model-driven-power-apps/" },
+    { title: "Modern advanced find with enhanced view management in model-driven apps", url: "https://www.microsoft.com/en-us/power-platform/blog/power-apps/modern-advanced-find-with-enhanced-view-management-in-model-driven-apps/" },
+    { title: "Visualize data in model-driven apps with Power BI (preview)", url: "https://www.microsoft.com/en-us/power-platform/blog/power-apps/visualize-data-in-model-driven-apps-with-power-bi-preview/" },
+    { title: "Create personal views in unified interface through advanced filtering for grids", url: "https://www.microsoft.com/en-us/power-platform/blog/power-apps/create-personal-views-in-unified-interface-through-advanced-filtering-for-grids/" },
+    { title: "Introducing the PowerApp that brings Common Data Service into Outlook", url: "https://www.microsoft.com/en-us/power-platform/blog/power-apps/introducing-the-powerapp-that-brings-common-data-service-into-outlook/" },
   ];
 
   return (
@@ -122,12 +126,12 @@ const Index = () => {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {articles.map((article, index) => (
-              <div key={index} className="card-interactive p-6">
+            {articles.slice(0, 6).map((article, index) => (
+              <a key={index} href={article.url} target="_blank" rel="noopener noreferrer" className="card-interactive p-6 block">
                 <h3 className="font-semibold text-text-primary mb-2 leading-snug">
                   {article.title}
                 </h3>
-              </div>
+              </a>
             ))}
           </div>
           
