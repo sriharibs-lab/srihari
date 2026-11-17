@@ -1,25 +1,375 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Srihari Srinivasa</title>
-    <meta name="description" content="Product Manager at Microsoft Power Apps helping democratize app development. Based in Seattle, passionate about running, quizzing, and meta-thinking." />
-    <meta name="author" content="Srihari Srinivasa" />
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Srihari Srinivasa</title>
+<meta name="description" content="I'm a product manager at Microsoft building Copilot Studio. It's based on a belief that everyone is a builder and a maker.">
+<meta name="author" content="Srihari Srinivasa">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#000000">
+<link rel="canonical" href="https://srihari.page/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-    <meta property="og:title" content="Srihari Srinivasa | Product Manager at Microsoft Power Apps" />
-    <meta property="og:description" content="Product Manager at Microsoft Power Apps helping democratize app development. Based in Seattle, passionate about running, quizzing, and meta-thinking." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/2uKhkJw6TlSZ58usEZsR4pGiMYP2/social-images/social-1757972002488-image-163bw.jpg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="srihari.page">
+<meta property="og:title" content="Srihari Srinivasa">
+<meta property="og:description" content="I'm a product manager at Microsoft building Copilot Studio. It's based on a belief that everyone is a builder and a maker.">
+<meta property="og:url" content="https://srihari.page">
+<meta property="og:image" content="https://srihari.page/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="srihari.page: I'm a product manager at Microsoft building Copilot Studio.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Srihari Srinivasa">
+<meta name="twitter:description" content="I'm a product manager at Microsoft building Copilot Studio. It's based on a belief that everyone is a builder and a maker.">
+<meta name="twitter:image" content="https://srihari.page/og.png">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/2uKhkJw6TlSZ58usEZsR4pGiMYP2/social-images/social-1757972002488-image-163bw.jpg">
-    <link rel="icon" type="image/x-icon" href="https://storage.googleapis.com/gpt-engineer-file-uploads/2uKhkJw6TlSZ58usEZsR4pGiMYP2/uploads/1757972238272-technology.png">
+<script>
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem('theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') t = 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+    var m = document.querySelector('meta[name="theme-color"]');
+    if (m) m.setAttribute('content', t === 'dark' ? '#000000' : '#FBFBFD');
+  })();
+</script>
+
+<style>
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #000000; --band: #0B0B0D; --ink: #F5F5F7; --sub: #A1A1A6; --mute: #8E8E93; --card: #1C1C1E;
+    --hair: rgba(255, 255, 255, 0.10); --link: #2997FF; --pill: rgba(28, 28, 30, 0.85);
+    --pill-shadow: 0 0 0 1px rgba(255, 255, 255, 0.10), 0 8px 20px -12px rgba(0, 0, 0, 0.9);
+    --btn: #F5F5F7; --btn-ink: #1D1D1F; --btn2: #1C1C1E;
+    --mono: linear-gradient(135deg, #F5F5F7 0%, #C7C7CC 100%); --mono-ink: #1D1D1F;
+    --grad: linear-gradient(90deg, #B79CF5, #6CB4FF);
+    --card-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 30px 60px -30px rgba(0, 0, 0, 0.9);
+    --frame-shadow: 0 0 0 1px rgba(255, 255, 255, 0.10), 0 16px 36px -18px rgba(0, 0, 0, 0.9);
+    --bar: #2C2C2E; --url: #3A3A3C; --live-bg: rgba(48, 209, 88, 0.16); --live-ink: #30D158;
+    --tf-bg: rgba(139, 111, 208, 0.22); --tf-ink: #C9B5F2;
+    --nexus-panel: linear-gradient(140deg, #1E1630 0%, #2A1F42 55%, #191322 100%);
+    --foot: #111113; --foot-edge: rgba(255, 255, 255, 0.10);
+    --hero-glow-a: 0.34; --hero-glow-b: 0.24; --spot-glow: rgba(108, 168, 255, 0.16);
+    --dot: rgba(255, 255, 255, 0.204); --dot-hot: rgba(255, 255, 255, 0.768);
+  }
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --bg: #FBFBFD; --band: #F5F5F7; --ink: #1D1D1F; --sub: #6E6E73; --mute: #86868B; --card: #FFFFFF;
+    --hair: rgba(0, 0, 0, 0.06); --link: #0066CC; --pill: rgba(255, 255, 255, 0.85);
+    --pill-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07), 0 8px 20px -12px rgba(0, 0, 0, 0.3);
+    --btn: #1D1D1F; --btn-ink: #FFFFFF; --btn2: #FFFFFF;
+    --mono: linear-gradient(135deg, #1D1D1F 0%, #48484A 100%); --mono-ink: #FFFFFF;
+    --grad: linear-gradient(90deg, #7054AB, #3B82F6);
+    --card-shadow: 0 1px 1px rgba(0, 0, 0, 0.04), 0 10px 30px -10px rgba(0, 0, 0, 0.14);
+    --frame-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 16px 36px -18px rgba(0, 0, 0, 0.35);
+    --bar: #F5F5F7; --url: #FFFFFF; --live-bg: #E9F8EF; --live-ink: #0A7A3B;
+    --tf-bg: #F1ECFA; --tf-ink: #5B3F98;
+    --nexus-panel: linear-gradient(140deg, #F6F1FD 0%, #E7DCF4 55%, #F3EAF9 100%);
+    --foot: #1D1D1F; --foot-edge: rgba(0, 0, 0, 0);
+    --hero-glow-a: 0.20; --hero-glow-b: 0.14; --spot-glow: rgba(112, 84, 171, 0.10);
+    --dot: rgba(29, 29, 31, 0.24); --dot-hot: rgba(29, 29, 31, 0.624);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; background: var(--bg); }
+  @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: var(--ink); background: var(--bg);
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  }
+  img { max-width: 100%; }
+  a { -webkit-tap-highlight-color: transparent; }
+  :focus-visible { outline: 2px solid var(--link); outline-offset: 3px; border-radius: 6px; }
+  .page { overflow: hidden; }
+  .wrap { position: relative; max-width: 1120px; margin: 0 auto; padding-inline: clamp(20px, 5vw, 48px); }
+  .layer { position: absolute; inset: 0; pointer-events: none; }
+
+  /* Hero */
+  .hero { --sx: 78%; --sy: 30%; position: relative; touch-action: pan-y; background: linear-gradient(180deg, var(--bg) 0%, var(--bg) 70%, var(--band) 100%); }
+  .hero-dots {
+    background-image: radial-gradient(circle at 1.2px 1.2px, var(--dot) 1.2px, transparent 0); background-size: 22px 22px;
+    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, #000000 20%, #000000 70%, transparent 100%);
+    mask-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, #000000 20%, #000000 70%, transparent 100%);
+  }
+  .spot-dots {
+    background-image: radial-gradient(circle at 1.2px 1.2px, var(--dot-hot) 1.6px, transparent 0); background-size: 22px 22px;
+    -webkit-mask-image: radial-gradient(circle 190px at var(--sx) var(--sy), #000000 0%, rgba(0,0,0,0.5) 45%, transparent 100%);
+    mask-image: radial-gradient(circle 190px at var(--sx) var(--sy), #000000 0%, rgba(0,0,0,0.5) 45%, transparent 100%);
+  }
+  .spot-glow { background: radial-gradient(circle 240px at var(--sx) var(--sy), var(--spot-glow), transparent 70%); }
+  @media (prefers-reduced-motion: reduce) { .spot-dots, .spot-glow { display: none; } }
+  .hero-glow { background: radial-gradient(42% 40% at 85% 12%, rgba(112, 84, 171, var(--hero-glow-a)), transparent 70%), radial-gradient(38% 36% at 8% 40%, rgba(59, 130, 246, var(--hero-glow-b)), transparent 70%); }
+
+  /* Nav */
+  .nav { height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; min-width: 0; }
+  .brand-mark { flex: none; width: 32px; height: 32px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--mono); color: var(--mono-ink); font-size: 14px; font-weight: 600; box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.4); }
+  .brand-name { font-size: 15px; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; }
+  .nav-links { display: flex; align-items: center; gap: 18px; font-size: 14px; flex: none; }
+  .nav-links a { color: var(--ink); text-decoration: none; }
+  .nav-links .pill { padding: 7px 14px; border-radius: 999px; background: var(--pill); box-shadow: var(--pill-shadow); }
+  .theme-btn { width: 36px; height: 36px; padding: 0; border: 0; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--pill); box-shadow: var(--pill-shadow); color: var(--ink); cursor: pointer; font: inherit; }
+  .theme-btn:focus-visible { border-radius: 50%; }
+  @media (max-width: 479px) { .nav-links .nav-anchor { display: none; } .nav-links { gap: 12px; } }
+
+  :root[data-theme="dark"] .only-light, :root[data-theme="light"] .only-dark { display: none !important; }
+
+  .about { padding-block: clamp(56px, 10vw, 136px) clamp(72px, 9vw, 120px); }
+  .eyebrow { margin: 0; font-size: 15px; font-weight: 600; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; width: max-content; }
+  h1 { margin: 18px 0 0; max-width: 21ch; font-size: clamp(30px, 5vw, 58px); line-height: 1.16; font-weight: 600; letter-spacing: -0.028em; text-wrap: balance; }
+  .lede { margin: 22px 0 0; max-width: 46ch; font-size: clamp(18px, 2vw, 22px); line-height: 1.55; color: var(--sub); letter-spacing: -0.01em; }
+  .ctas { margin-top: 36px; display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn { display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; border-radius: 999px; font-size: 16px; font-weight: 600; text-decoration: none; }
+  .btn-primary { background: var(--btn); color: var(--btn-ink); box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.55); }
+  .btn-secondary { background: var(--btn2); color: var(--ink); box-shadow: var(--pill-shadow); }
+  .btn:focus-visible, .nav-links .pill:focus-visible, .chip-link:focus-visible { border-radius: 999px; }
+
+  /* Work */
+  .work { background: var(--band); padding-block: 8px clamp(72px, 9vw, 128px); }
+  #projects { margin: clamp(40px, 6vw, 72px) 0 0; }
+  .project { position: relative; margin-top: 48px; }
+  .project.first { margin-top: 32px; }
+  .project-glow { position: absolute; left: -8%; right: -8%; top: -6%; height: 75%; filter: blur(28px); pointer-events: none; }
+  .card { position: relative; background: var(--card); border-radius: 28px; padding: clamp(12px, 2vw, 20px); display: flex; flex-wrap: wrap; align-items: center; gap: clamp(20px, 3vw, 44px); }
+  .shot { flex: 1 1 560px; min-width: 0; margin: 0; }
+  .browser { border-radius: 16px; overflow: hidden; background: #FFFFFF; box-shadow: var(--frame-shadow); }
+  .browser-bar { height: 30px; display: flex; align-items: center; gap: 6px; padding: 0 12px; background: var(--bar); border-bottom: 1px solid var(--hair); }
+  .light-dot { flex: none; width: 10px; height: 10px; border-radius: 50%; }
+  .browser-url { flex: 1; min-width: 0; display: flex; justify-content: center; }
+  .browser-url span { padding: 3px 14px; border-radius: 7px; background: var(--url); font-size: 11px; color: var(--sub); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .browser-spacer { flex: none; width: 42px; }
+  .browser img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; }
+  .info { flex: 1 1 280px; min-width: 0; padding: 4px 8px 14px; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 5px 11px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+  .chip i { width: 7px; height: 7px; border-radius: 50%; }
+  .chip-live { background: var(--live-bg); color: var(--live-ink); }
+  .chip-live i { background: #30D158; }
+  .chip-tf { background: var(--tf-bg); color: var(--tf-ink); }
+  .chip-tf i { background: #8B6FD0; }
+  .info h2 { margin: 16px 0 0; font-size: 34px; line-height: 1.08; font-weight: 700; letter-spacing: -0.03em; }
+  .info p { margin: 12px 0 0; font-size: 19px; line-height: 1.6; color: var(--sub); }
+  .links { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 18px; font-size: 15px; font-weight: 600; }
+  .links a { color: var(--link); text-decoration: none; }
+  .links a:hover, .nav-links a:not(.pill):hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  .wg .project-glow { background: radial-gradient(40% 55% at 25% 40%, rgba(244, 114, 182, 0.32), transparent 70%), radial-gradient(40% 55% at 55% 25%, rgba(196, 181, 253, 0.40), transparent 70%), radial-gradient(40% 55% at 80% 50%, rgba(134, 239, 172, 0.36), transparent 70%); }
+  .wg .card { box-shadow: var(--card-shadow), 0 40px 80px -40px rgba(157, 23, 77, 0.28); }
+  .nx .project-glow { height: 80%; background: radial-gradient(48% 60% at 35% 45%, rgba(112, 84, 171, 0.40), transparent 70%), radial-gradient(40% 55% at 75% 35%, rgba(240, 171, 252, 0.36), transparent 70%); }
+  .nx .card { box-shadow: var(--card-shadow), 0 40px 80px -40px rgba(112, 84, 171, 0.45); }
+  .rd .project-glow { background: radial-gradient(48% 60% at 28% 45%, rgba(59, 130, 246, 0.38), transparent 70%), radial-gradient(42% 55% at 72% 30%, rgba(34, 211, 238, 0.30), transparent 70%); }
+  .rd .card { box-shadow: var(--card-shadow), 0 40px 80px -40px rgba(30, 64, 175, 0.35); }
+
+  /* Nexus phones */
+  .phones { border-radius: 18px; overflow: hidden; background: var(--nexus-panel); padding: 36px 6% 0; display: flex; justify-content: center; align-items: flex-end; }
+  .phone { width: 30%; background: #1D1D1F; border-radius: 17% / 8%; padding: 2.4%; box-shadow: 0 0 0 1px var(--hair), 0 24px 40px -18px rgba(39, 18, 77, 0.55); transform-origin: bottom center; }
+  .phone-left { margin-right: -5%; transform: rotate(-5deg) translateY(10%); }
+  .phone-right { margin-left: -5%; transform: rotate(5deg) translateY(10%); }
+  .phone-mid { position: relative; z-index: 2; width: 36%; box-shadow: 0 0 0 1px var(--hair), 0 30px 50px -20px rgba(39, 18, 77, 0.65); }
+  .phone img { display: block; width: 100%; height: auto; aspect-ratio: 1206 / 2622; border-radius: 15% / 7%; }
+
+  /* Footer */
+  .foot { position: relative; background: var(--foot); color: #F5F5F7; border-radius: 32px 32px 0 0; overflow: hidden; box-shadow: inset 0 1px 0 var(--foot-edge); }
+  .foot-dots { background-image: radial-gradient(circle at 1.2px 1.2px, rgba(255, 255, 255, 0.16) 1.2px, transparent 0); background-size: 22px 22px; -webkit-mask-image: linear-gradient(180deg, #000000 0%, transparent 85%); mask-image: linear-gradient(180deg, #000000 0%, transparent 85%); }
+  .foot-glow { background: radial-gradient(50% 60% at 90% 0%, rgba(112, 84, 171, 0.35), transparent 70%); }
+  .foot-inner { position: relative; max-width: 1120px; margin: 0 auto; padding: clamp(64px, 8vw, 112px) clamp(20px, 5vw, 48px) 40px; }
+  .foot h2 { margin: 0; font-size: clamp(34px, 5vw, 60px); line-height: 1.05; font-weight: 700; letter-spacing: -0.03em; max-width: 18ch; text-wrap: balance; }
+  .email { display: inline-block; margin: 28px 0 0; font-size: clamp(20px, 2.4vw, 26px); font-weight: 600; letter-spacing: -0.01em; color: #F5F5F7; text-decoration: none; overflow-wrap: anywhere; }
+  .email:hover { text-decoration: underline; text-underline-offset: 4px; }
+  .foot :focus-visible { outline-color: #F5F5F7; }
+  .socials { margin-top: 22px; display: flex; flex-wrap: wrap; gap: 10px; }
+  .socials a { padding: 10px 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.10); color: #F5F5F7; font-size: 15px; font-weight: 500; text-decoration: none; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14); }
+  .socials a:hover { background: rgba(255, 255, 255, 0.16); }
+  .socials a:focus-visible { border-radius: 999px; }
+  .colophon { margin-top: clamp(56px, 7vw, 96px); padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, 0.12); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; font-size: 13px; color: #86868B; }
+</style>
 </head>
+<body>
+<div class="page">
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <section class="hero" id="hero">
+    <div class="layer hero-dots" aria-hidden="true"></div>
+    <div class="layer spot-dots" aria-hidden="true"></div>
+    <div class="layer spot-glow" aria-hidden="true"></div>
+    <div class="layer hero-glow" aria-hidden="true"></div>
+
+    <div class="wrap">
+      <nav class="nav" aria-label="Site">
+        <a class="brand" href="#top">
+          <span class="brand-mark" aria-hidden="true">S</span>
+          <span class="brand-name">Srihari Srinivasa</span>
+        </a>
+        <div class="nav-links">
+          <a class="nav-anchor" href="#top">About</a>
+          <a class="nav-anchor" href="#projects">Projects</a>
+          <a class="pill" href="https://github.com/sriharibs-lab" target="_blank" rel="noopener">GitHub</a>
+          <button type="button" class="theme-btn" id="theme-toggle" aria-label="Switch to light mode" title="Switch to light mode">
+            <svg class="only-dark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"></circle><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"></path></svg>
+            <svg class="only-light" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"></path></svg>
+          </button>
+        </div>
+      </nav>
+
+      <div class="about" id="top">
+        <p class="eyebrow">About</p>
+        <h1>I'm a product manager at Microsoft building Copilot Studio.</h1>
+        <p class="lede">It's based on a belief that everyone is a builder and a maker. All they need are the right tools to act on it. I like exploring my own interests with AI, and mine happen to be quizzing and long-distance running. Here are a few ways I've put AI to work for myself.</p>
+        <div class="ctas">
+          <a class="btn btn-primary" href="#projects">See the projects</a>
+          <a class="btn btn-secondary" href="https://www.microsoft.com/en-us/power-platform/blog/author/srihas/" target="_blank" rel="noopener">My writing on the Microsoft blog ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="work" id="work">
+    <div class="wrap">
+      <p class="eyebrow" id="projects">Projects</p>
+
+      <article class="project first wg" aria-labelledby="p-wikigraph">
+        <div class="project-glow" aria-hidden="true"></div>
+        <div class="card">
+          <figure class="shot">
+            <div class="browser">
+              <div class="browser-bar" aria-hidden="true">
+                <span class="light-dot" style="background: #FF5F57"></span><span class="light-dot" style="background: #FEBC2E"></span><span class="light-dot" style="background: #28C840"></span>
+                <span class="browser-url"><span>wikigraph-ochre.vercel.app</span></span>
+                <span class="browser-spacer"></span>
+              </div>
+              <img src="/shots/wikigraph.jpg" width="1600" height="1000" decoding="async" fetchpriority="high" alt="WikiGraph showing Seattle linked to 26 Wikipedia concepts, with the Seattle panel open and a photo of the Space Needle">
+            </div>
+          </figure>
+          <div class="info">
+            <span class="chip chip-live"><i aria-hidden="true"></i>Live</span>
+            <h2 id="p-wikigraph">WikiGraph</h2>
+            <p>Any subject, drawn as a web of the ideas around it.</p>
+            <div class="links">
+              <a href="https://wikigraph-ochre.vercel.app" target="_blank" rel="noopener">Try WikiGraph ↗</a>
+              <a href="https://github.com/sriharibs-lab/wikigraph" target="_blank" rel="noopener">Source ↗</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project nx" aria-labelledby="p-nexus">
+        <div class="project-glow" aria-hidden="true"></div>
+        <div class="card">
+          <figure class="shot phones">
+            <div class="phone phone-left">
+              <img class="only-dark" src="/shots/dark_home.jpg" width="414" height="900" loading="lazy" decoding="async" alt="Nexus home screen with five collections">
+              <img class="only-light" src="/shots/light_home.jpg" width="414" height="900" loading="lazy" decoding="async" alt="Nexus home screen with five collections">
+            </div>
+            <div class="phone phone-mid">
+              <img class="only-dark" src="/shots/dark_infographic.jpg" width="414" height="900" loading="lazy" decoding="async" alt="An infographic Nexus generated from a collection: Picasso, in numbers">
+              <img class="only-light" src="/shots/light_infographic.jpg" width="414" height="900" loading="lazy" decoding="async" alt="An infographic Nexus generated from a collection: Picasso, in numbers">
+            </div>
+            <div class="phone phone-right">
+              <img class="only-dark" src="/shots/dark_poster.jpg" width="414" height="900" loading="lazy" decoding="async" alt="A poster Nexus generated from a collection on the attention economy">
+              <img class="only-light" src="/shots/light_poster.jpg" width="414" height="900" loading="lazy" decoding="async" alt="A poster Nexus generated from a collection on the attention economy">
+            </div>
+          </figure>
+          <div class="info">
+            <span class="chip chip-tf"><i aria-hidden="true"></i>In TestFlight · build 17</span>
+            <h2 id="p-nexus">Nexus</h2>
+            <p>An iPhone app that remembers what you read, and answers when you ask.</p>
+            <div class="links">
+              <a href="https://github.com/sriharibs-lab/project-nexus" target="_blank" rel="noopener">Source on GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project rd" aria-labelledby="p-rundown">
+        <div class="project-glow" aria-hidden="true"></div>
+        <div class="card">
+          <figure class="shot">
+            <div class="browser">
+              <div class="browser-bar" aria-hidden="true">
+                <span class="light-dot" style="background: #FF5F57"></span><span class="light-dot" style="background: #FEBC2E"></span><span class="light-dot" style="background: #28C840"></span>
+                <span class="browser-url"><span>run-down.vercel.app</span></span>
+                <span class="browser-spacer"></span>
+              </div>
+              <img src="/shots/rundown.jpg" width="1600" height="1000" loading="lazy" decoding="async" alt="Run Down answering “half marathons in California in January” with an AI recommendation and the top matching races">
+            </div>
+          </figure>
+          <div class="info">
+            <span class="chip chip-live"><i aria-hidden="true"></i>Live</span>
+            <h2 id="p-rundown">Run Down</h2>
+            <p>Describe the race you want. It finds one.</p>
+            <div class="links">
+              <a href="https://run-down.vercel.app" target="_blank" rel="noopener">Try Run Down ↗</a>
+              <a href="https://github.com/sriharibs-lab/run-down" target="_blank" rel="noopener">Source ↗</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="foot">
+    <div class="layer foot-dots" aria-hidden="true"></div>
+    <div class="layer foot-glow" aria-hidden="true"></div>
+    <div class="foot-inner">
+      <h2>Say hello</h2>
+      <a class="email" href="mailto:Srihari.srinivasa@gmail.com">Srihari.srinivasa@gmail.com</a>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/srihari-srinivasa/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/sriharibs-lab" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <div class="colophon">
+        <span>© 2026 Srihari Srinivasa</span>
+        <span>Made in Seattle, between runs</span>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var btn = document.getElementById('theme-toggle');
+    var meta = document.querySelector('meta[name="theme-color"]');
+
+    function apply(theme) {
+      root.setAttribute('data-theme', theme);
+      var label = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+      btn.setAttribute('aria-label', label);
+      btn.setAttribute('title', label);
+      if (meta) meta.setAttribute('content', theme === 'dark' ? '#000000' : '#FBFBFD');
+    }
+    apply(root.getAttribute('data-theme') === 'light' ? 'light' : 'dark');
+
+    btn.addEventListener('click', function () {
+      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      apply(next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+
+    // Spotlight: follows the pointer across the hero.
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var hero = document.getElementById('hero');
+    if (!reduce && hero) {
+      var raf = 0, nx = 78, ny = 30;
+      var onMove = function (e) {
+        var r = hero.getBoundingClientRect();
+        if (!r.width || !r.height) return;
+        nx = Math.max(0, Math.min(100, (e.clientX - r.left) / r.width * 100));
+        ny = Math.max(0, Math.min(100, (e.clientY - r.top) / r.height * 100));
+        if (raf) return;
+        raf = requestAnimationFrame(function () {
+          raf = 0;
+          hero.style.setProperty('--sx', nx.toFixed(1) + '%');
+          hero.style.setProperty('--sy', ny.toFixed(1) + '%');
+        });
+      };
+      hero.addEventListener('pointermove', onMove, { passive: true });
+      hero.addEventListener('pointerdown', onMove, { passive: true });
+    }
+  })();
+</script>
+</body>
 </html>
